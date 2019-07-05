@@ -1,0 +1,35 @@
+/*Configurações padrões*/
+body, html{
+    margin:0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+}
+
+.conteudo{
+    background-color: white;
+    color: #777;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+/*Efeito Parallax*/
+
+.caixa1, .caixa2{
+    height: 100%;
+}
+
+.caixa1{
+   background-image: url(../img/imagem1.jpg);
+   background-size: cover;
+}
+
+.caixa2{
+background-image: url(../img/imagem2.jpg);
+background-size: cover;
+}
